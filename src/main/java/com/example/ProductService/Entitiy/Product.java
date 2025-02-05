@@ -36,5 +36,7 @@ public class Product {
     @Column(name = "image")
     private String image;
 
+    @Column(name = "is_processed")
+    private String isProcessed;
 
 }
